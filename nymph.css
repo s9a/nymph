@@ -1,14 +1,25 @@
 ::selection {
-  background: #ee5;
-  color: black;
+  background: indigo;
+  color: chartreuse;
 }
 
 :root {
-  background: #333;
-  color: #eee;
+  background: chartreuse;
+  color: #111;
 }
 
-:link {
+:root:target {
+  background: orchid;
+  color: #111;
+}
+
+:enabled {
+  border-color: indigo;
+  background: mediumspringgreen;
+  color: #111;
+}
+
+:any-link {
   color: #111;
   background: #bae;
 }
